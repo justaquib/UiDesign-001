@@ -2,6 +2,7 @@
   "name": "alfanetwork",
   "version": "0.1.0",
   "private": true,
+  "author": "Aquib Shahbaz",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdi/font": "^7.0.96",
+    "@mdi/js": "^7.0.96",
+    "@mdi/react": "^1.6.1",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.2.2",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.2",
     "next": "13.0.2",

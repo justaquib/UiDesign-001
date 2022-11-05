@@ -14,13 +14,44 @@ a {
 * {
   box-sizing: border-box;
 }
+li{
+  list-style-type: none;
+}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.rounded{
+  border-radius: 16px !important;
+}
+
+.text-hero{
+  font-size: 58px;
+}
+.hero-img{
+  object-fit: cover;
+  height: 480px;
+  object-position: right;
+}
+.text-xxxl{
+  font-size:  5.4rem;
+}
+.px-6{
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+.sm-border{
+  height: 12px;
+  background-color: #fff;
+  width: 60px;
+  border-radius: 6px;
+}
+.py-6{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.py-8{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.px-8{
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
