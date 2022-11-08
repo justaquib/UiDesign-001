@@ -33,9 +33,9 @@ li{
 .text-xxxl{
   font-size:  5.2rem;
 }
-.px-6{
-  padding-right: 4rem;
-  padding-left: 4rem;
+.px-lg-6{
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
 }
 .sm-border{
   height: 12px;
@@ -47,11 +47,35 @@ li{
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.py-8{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.py-lg-8{
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 .px-8{
   padding-right: 5rem;
   padding-left: 5rem;
 }
+
+@media (max-width: 426px) { 
+
+  .text-xxxl{
+    font-size: 2.2rem;
+  }
+
+  .py-md-0{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .px-md-0{
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+
+  .text-hero{
+    font-size: 28px;
+  }
+  .left-25{
+    left: 30% !important;
+  }
+
+ }
