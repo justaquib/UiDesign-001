@@ -72,7 +72,7 @@ export default function Home() {
               </div>
               <div className='col-md-5'>
                 <div className='card border-0 px-4 py-5'>
-                  <img className='card-img shadow rounded hero-img' data-aos="zoom-in" data-aos-easing="ease-out"
+                  <img className='card-img shadow rounded hero-img' alt='' data-aos="zoom-in" data-aos-easing="ease-out"
                         data-aos-duration="600" src='https://images.unsplash.com/photo-1558403194-611308249627?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'/>
                 </div>
               </div>
@@ -113,19 +113,19 @@ export default function Home() {
                   </div>
                   <div className='col-md-6 mb-4'>
                     <div className='card shadow border-0 rounded' data-aos="zoom-in-down" data-aos-easing="ease-out" data-aos-duration="1000">
-                      <img className='rounded' src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
+                      <img className='rounded' alt='' src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
                     </div>
                   </div>
                   <div className='col-md-12 mb-4'>
                     <div className='card shadow border-0 rounded' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1000">
-                      <img className='card-img rounded' src="https://images.unsplash.com/photo-1545150665-c72a8f0cf311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                      <img className='card-img rounded' alt="" src="https://images.unsplash.com/photo-1545150665-c72a8f0cf311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
                     </div>
                   </div>
                 </div>
               </div>
               <div className='col-md-5 mb-4'>
                 <div className='card shadow border-0 rounded' data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="1000">
-                  <img className='card-img rounded' src="https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" />
+                  <img className='card-img rounded' alt="" src="https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" />
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
         </div>
         <div className='row mb-md-5'>
           <div className='col-md-9 mx-auto position-relative overflow-hidden'>
-            <img src="https://ik.imagekit.io/4qrl0wfomb/Alfa-Network/does-it-all_8Bv1586bw.jpg" rel="" />
+            <img src="https://ik.imagekit.io/4qrl0wfomb/Alfa-Network/does-it-all_8Bv1586bw.jpg" alt="" rel="" />
             <div className='col-md-4 position-absolute top-50 start-50 left-25'>
               <div className='card border-0 shadow rounded px-4 py-5 bg-dark text-white' data-aos="fade-left" data-aos-duration="1000">
                 <div className='card-body'>
