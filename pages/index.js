@@ -60,12 +60,10 @@ export default function Home() {
           <div className='col-md-12'>
             <div className='row'> 
               <div className='col-md-7'>
-                <div className='card border-0 px-4 py-5'>
+                <div className='card border-0 px-4 py-8'>
                   <div className='card-body'>
-                    <h1 className='text-capitalize text-xxxl fw-bolder' data-aos="fade-up"
-                        data-aos-easing="ease-out"
-                        data-aos-duration="1000">
-                      The intersection of planning and technology
+                    <h1 className='text-capitalize text-xxxl fw-bolder'>
+                      The intersection of planning and technology             
                     </h1>
                     <p className='text-capitalize'>Helping you create amazing conferences, events, and incentives</p>
                   </div>
@@ -79,6 +77,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+          {
+            /* Reference https://www.bizzabo.com/ */
+          }
           {/* <div className='col-md-4'>
             <div className='card border-0 shadow rounded px-4 py-5'>
               <div className='card-body'>
@@ -92,32 +93,72 @@ export default function Home() {
           </div> */}
         </div>
         <div className='row mb-5'>
+          <div className='col-md-12'>
+            <div className='row'>
+              <div className='col-md-7'>
+                <div className='row'>
+                  <div className='col-md-6 mb-4'>
+                    <div className='card shadow border-0 rounded bg-dark text-white'>
+                      <div className='card-body p-5'>
+                        <h1 className='fw-bolder text-hero'>
+                          <span data-aos="fade-up" data-aos-easing="ease-out"
+                                data-aos-duration="1000">
+                          Events 
+                          </span><br/> 
+                        </h1>
+                        <p className='text-capitalize'>Your event, Your data, Your experience</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='col-md-6 mb-4'>
+                    <div className='card shadow border-0 rounded' data-aos="zoom-in-down" data-aos-easing="ease-out" data-aos-duration="1000">
+                      <img className='rounded' src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
+                    </div>
+                  </div>
+                  <div className='col-md-12'>
+                    <div className='card shadow border-0 rounded' data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1000">
+                      <img className='card-img rounded' src="https://images.unsplash.com/photo-1545150665-c72a8f0cf311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-5'>
+                <div className='card shadow border-0 rounded' data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="1000">
+                  <img className='card-img rounded' src="https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='row mb-5 py-6'>
           <div className='col-md-9 mx-auto'>
             <div className='card shadow border-0 rounded py-8 px-6 bg-dark text-white'>
               <div className='card-body p-5'>
                 <h1 className='fw-bolder text-hero'>
                   <span data-aos="fade-up" data-aos-easing="ease-out"
-                        data-aos-duration="700">
+                        data-aos-duration="1000">
                     The Modern, 
                   </span><br/> 
                   <span data-aos="fade-up" data-aos-easing="ease-out"
-                        data-aos-duration="700">
+                        data-aos-duration="1100">
                     Hassle-free Way 
                   </span><br/>
                   <span data-aos="fade-up" data-aos-easing="ease-out"
-                        data-aos-duration="700">
+                        data-aos-duration="1200">
                     to Build Better 
                   </span><br/>
                   <span data-aos="fade-up" data-aos-easing="ease-out"
-                        data-aos-duration="700">
+                        data-aos-duration="1300">
                     Events
                   </span>
                 </h1>
                 <div className='sm-border mt-3'></div>
                 <div className='mt-5'>
                   <Link href="#">
-                    Learn more about us &#10230;
-                      
+                    Learn more about us &nbsp;
+                    <span className='rounded-pill p-3 border'>
+                      &#10230;
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -126,7 +167,7 @@ export default function Home() {
         </div>
         <div className='row mb-5'>
           <div className='col-md-9 mx-auto position-relative'>
-            <img src="https://ik.imagekit.io/4qrl0wfomb/Alfa-Network/does-it-all_8Bv1586bw.jpg" lazy rel="" />
+            <img src="https://ik.imagekit.io/4qrl0wfomb/Alfa-Network/does-it-all_8Bv1586bw.jpg" rel="" />
             <div className='col-md-4 position-absolute top-50 start-50'>
               <div className='card border-0 shadow rounded px-4 py-5 bg-dark text-white' data-aos="fade-left" data-aos-duration="1000">
                 <div className='card-body'>
