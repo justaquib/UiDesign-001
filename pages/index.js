@@ -29,7 +29,7 @@ export default function Home() {
                 <img className="rounded-pill d-inline-block align-text-center" src="https://media.istockphoto.com/vectors/creative-modern-letter-a-triangle-vector-icon-template-vector-id1173231564?k=20&amp;m=1173231564&amp;s=612x612&amp;w=0&amp;h=s3kJcZCv6xVLTONhx6wF0OTehFsCuhYVkea2JLsI3iM=" alt="alfa-logo" width="45"/>
                 <span className='fw-bolder'>Alfa</span>Network
               </Link>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -173,7 +173,7 @@ export default function Home() {
               <div className='card border-0 shadow rounded px-4 py-5 bg-dark text-white' data-aos="fade-left" data-aos-duration="1000">
                 <div className='card-body'>
                   <h1 className='text-capitalize'>
-                    <span className='fw-bolder'>Alfa</span><span className='fw-normal'>Network</span>
+                    <span className='fw-bolder'>Alfa</span><span className='fw-normal'>Network</span><br/>
                     <span className='fw-light'>does it all</span>
                   </h1>
                   <p className='text-capitalize'>
