@@ -37,12 +37,12 @@ export default function Home() {
               <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul className="nav">
                   <li className="nav-item">
-                    <Link href="#" className='mx-2 p-2'>
+                    <Link href="#about" className='mx-2 p-2'>
                       About us
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="#" className='mx-2 p-2'>
+                    <Link href="#events" className='mx-2 p-2'>
                       Events
                     </Link> 
                   </li>
@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='row mb-md-5'>
+        <div className='row mb-md-5' id="events">
           <div className='col-md-12 d-none d-md-block'>
             <div className='row'>
               <div className='col-md-7'>
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='row mb-md-5'>
+        <div className='row mb-md-5' id="about">
           <div className='col-md-9 mx-auto position-relative overflow-hidden'>
             <img src="https://ik.imagekit.io/4qrl0wfomb/Alfa-Network/does-it-all_8Bv1586bw.jpg" alt="" rel="" />
             <div className='col-lg-4 col-12 position-absolute top-50 start-50 left-10'>
@@ -174,7 +174,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='col-md-12 event-sm mt-5'>
+        <div className='col-md-12 event-sm mt-5' id="events">
             <div className='card shadow border-0 rounded bg-white text-dark'>
               <div className='card-body p-5'>
                 <h1 className='fw-bolder text-hero'>
@@ -215,7 +215,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className='col-md-3'>
-                <Link href="about-us">
+                <Link href="#about" id="about">
                   About us
                 </Link>
               </div>
