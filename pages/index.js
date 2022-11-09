@@ -12,21 +12,6 @@ export default function Home() {
     AOS.init();
   }, [])
 
-  // Sticky Menu Area
-  useEffect(() => {
-    window.addEventListener('scroll', isSticky);
-    return () => {
-        window.removeEventListener('scroll', isSticky);
-    };
-  });
-
-       
-  /* Method that will fix header after a specific scrollable */
-  const isSticky = (e) => {
-      const header = document.querySelector('.header-section');
-      const scrollTop = window.scrollY;
-      scrollTop >= 80 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
-  };
 
   return (
     <>
@@ -170,6 +155,13 @@ export default function Home() {
                 </AwesomeSlider>
               </div>
             </div>
+          </div>
+          <div className='col-md-12'>
+            <div className="mb-md-5 py-5">
+                  <div className="col-md-12 text-center">
+                      <h1>Level up your attendee engagement</h1>
+                  </div>
+              </div>
           </div>
       </main>
       <Footer />

@@ -6,12 +6,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <>
-        <footer className='container-fluid mt-5'>
-            <div className="header mb-md-5 py-5">
-                <div className="col-md-12 text-center">
-                    <h1>Level up your attendee engagement</h1>
-                </div>
-            </div>
+        <footer className='container-fluid'>
             <hr className='border' />
             <div className='row mt-5'>
                 <div className='col-md-9 text-center'>
