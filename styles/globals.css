@@ -56,6 +56,9 @@ li{
   padding-right: 5rem;
   padding-left: 5rem;
 }
+.event-sm{
+  display: none;
+}
 
 @media (max-width: 426px) { 
 
@@ -75,8 +78,18 @@ li{
   .text-hero{
     font-size: 28px;
   }
-  .left-25{
-    left: 30% !important;
+  .left-10{
+    left: 10% !important;
   }
 
+  .awssld__content{
+    border-radius: 16px;
+  }
+  .event-sm{
+    display: block;
+  }
+  .py-6{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
  }

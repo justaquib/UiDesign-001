@@ -5,6 +5,8 @@ import Link from 'next/link'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 export default function Home() {
   useEffect(() => {
@@ -78,23 +80,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {
-            /* Reference https://www.bizzabo.com/ */
-          }
-          {/* <div className='col-md-4'>
-            <div className='card border-0 shadow rounded px-4 py-5'>
-              <div className='card-body'>
-                <h1 className='text-capitalize'>
-                  Level up your
-                  attendee engagement
-                </h1>
-                <p className='text-capitalize'>Your event, Your data, Your experience</p>
-              </div>
-            </div>
-          </div> */}
         </div>
-        <div className='row mb-5'>
-          <div className='col-md-12'>
+        <div className='row mb-md-5'>
+          <div className='col-md-12 d-none d-md-block'>
             <div className='row'>
               <div className='col-md-7'>
                 <div className='row'>
@@ -169,7 +157,7 @@ export default function Home() {
         <div className='row mb-md-5'>
           <div className='col-md-9 mx-auto position-relative overflow-hidden'>
             <img src="https://ik.imagekit.io/4qrl0wfomb/Alfa-Network/does-it-all_8Bv1586bw.jpg" alt="" rel="" />
-            <div className='col-md-4 position-absolute top-50 start-50 left-25'>
+            <div className='col-lg-4 col-12 position-absolute top-50 start-50 left-10'>
               <div className='card border-0 shadow rounded px-4 py-5 bg-dark text-white' data-aos="fade-left" data-aos-duration="1000">
                 <div className='card-body'>
                   <h1 className='text-capitalize'>
@@ -186,9 +174,33 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='col-md-12 event-sm mt-5'>
+            <div className='card shadow border-0 rounded bg-white text-dark'>
+              <div className='card-body p-5'>
+                <h1 className='fw-bolder text-hero'>
+                  <span data-aos="fade-up" data-aos-easing="ease-out"
+                        data-aos-duration="1000">
+                  Events 
+                  </span><br/> 
+                </h1>
+                <p className='text-capitalize'>Your event, Your data, Your experience</p>
+                <AwesomeSlider>
+                  <div className='rounded'>
+                    <img className='rounded' alt='' src='https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
+                  </div>
+                  <div className='rounded'>
+                    <img className='rounded' alt="" src="https://images.unsplash.com/photo-1545150665-c72a8f0cf311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                  </div>
+                  <div className='rounded'>
+                    <img className='rounded' alt="" src="https://images.unsplash.com/photo-1541532713592-79a0317b6b77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" />
+                  </div>
+                </AwesomeSlider>
+              </div>
+            </div>
+          </div>
       </main>
       <footer className='container-fluid mt-5'>
-        <div className="header mb-5 py-5">
+        <div className="header mb-md-5 py-5">
           <div className="col-md-12 text-center">
             <h1>Level up your attendee engagement</h1>
           </div>
