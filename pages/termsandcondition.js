@@ -11,7 +11,7 @@ export default function termsandcondition() {
                 <div className='row mb-md-5 py-6'>
                     <div className='col-md-9 mx-auto'>
                         <div className='card shadow border-0 rounded py-8 px-lg-6 px-md-0 bg-dark text-white'>
-                            <div className='card-body p-5'>
+                            <div className='card-body p-md-5 p-4'>
                                 <h1 className='fw-bolder text-hero'>
                                 <span data-aos="fade-up" data-aos-easing="ease-out"
                                         data-aos-duration="1000">
